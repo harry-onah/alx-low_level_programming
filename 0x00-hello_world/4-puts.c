@@ -3,7 +3,6 @@
 /**
  * Main - main block
  * Return: 0
- * Description: this program outputs a string without printf
  */
 
 int main(void)
