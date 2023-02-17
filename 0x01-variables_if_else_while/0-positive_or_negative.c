@@ -4,7 +4,7 @@
 
 /**
  * main - main entry
- * Description:  A program that outputs negative or positive 
+ * Description: A program that outputs negative or positive 
  * random numbers
  * Return: 0
  */
@@ -21,5 +21,6 @@ int main(void)
 		printf("%d is negative\n", n);
 	else
 		printf("%d is zero\n", n);
+
 	return (0);
 }
