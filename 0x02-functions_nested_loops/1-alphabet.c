@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * main - main Entry
- * Description: This program prints lowercase alphabets
- * Return 0
+ * This program prints lowercase alphabets
  */
-int main(void)
+void print_alphabet(void)
 {
 	int start = 97, end = 122;
 
@@ -16,5 +14,4 @@ int main(void)
 	}
 
 	_putchar('\n');
-	return (0);
 }
