@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	long prime = 61285475143;
+	long prime = 612852475143;
 	long div;
 
 	while (div < (prime / 2))
@@ -20,12 +20,12 @@ int main(void)
 		}
 		for (div = 3; div < (prime / 2); div += 2)
 		{
-			if((prime % div) == 0)
+			if ((prime % div) == 0)
 			{
 				prime /= div;
 			}
 		}
 	}
-	printf("%lu\n", prime);
+	printf("%ld\n", prime);
 	return (0);
 }
