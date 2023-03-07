@@ -4,7 +4,6 @@
  * evaluate_num - recursion loop
  * @num: number
  * @iterator: numbet to iterate
- *
  * Return: return 0 or 1.
  */
 int evaluate_num(int num, int iterator)
@@ -25,14 +24,13 @@ int evaluate_num(int num, int iterator)
 /**
  * is_prime_number - evaluate prime or not
  * @num: number
- * 
  * Return: return 1 prime - return 0 otherwise
  */
 int is_prime_number(int num)
 {
 	int iterator;
 
-	iterator = 0;
+	iterator = 2;
 	if (num < 2)
 		return (0);
 	if (num == 2)
@@ -40,4 +38,3 @@ int is_prime_number(int num)
 
 	return (evaluate_num(num, iterator));
 }
-
