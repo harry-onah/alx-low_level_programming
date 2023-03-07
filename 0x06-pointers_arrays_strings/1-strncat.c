@@ -5,6 +5,9 @@
  * except that it will use at most n bytes from src; and
  * src does not need to be null-terminated if it contains n
  * or more bytes
+ * @dest: first string
+ * @src: second string
+ * @n: integer
  *
  * Return: pointer to the resulting string dest
  */
