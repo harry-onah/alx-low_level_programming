@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _evaluate - evaluates sqrt
+ * _evaluate - function evaluates sqrt
  * @n: integer
  * @i: integer
  *
- * Return evaluate sqrt
+ * Return: evaluate sqrt
  */
 int _evaluate(int i, int n)
 {
