@@ -1,7 +1,10 @@
 $include "main.h"
 
 /**
- *
+ * _strspn - gets the length of a prefix substring
+ * @s: string
+ * @accept: string
+ * Return: 0 or 1
  */
 unsigned int _strspn(char *s, char *accept)
 {
